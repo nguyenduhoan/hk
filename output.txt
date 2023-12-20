@@ -1,7 +1,9 @@
 Microsoft Windows [Version 10.0.19045.3803]
 (c) Microsoft Corporation. All rights reserved.
 
-C:\Users\iPMAC\source\repos\test\test\bin\Debug>cmd /k 
+C:\Users\iPMAC\source\repos\test\test\bin\Debug>cmd /k whoami
+desktop-pm3ct7o\ipmac
+
 C:\Users\iPMAC\source\repos\test\test\bin\Debug>
 C:\Users\iPMAC\source\repos\test\test\bin\Debug>
 C:\Users\iPMAC\source\repos\test\test\bin\Debug>
