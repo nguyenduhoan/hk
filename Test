@@ -64,3 +64,5 @@ nmap -sV -sC -Pn -p- -oN report.txt 10.10.110.100
 
 
 https://github.com/chvancooten/OSEP-Code-Snippets
+
+https://viblo.asia/p/tim-hieu-ve-zerologon-WAyK8rk9lxX
