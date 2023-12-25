@@ -61,6 +61,7 @@ https://lab.pentestit.ru/
 
 
 nmap -sV -sC -Pn -p- -oN report.txt 10.10.110.100
+https://blog.csdn.net/weixin_44203305/article/details/134188498
 
 
 https://github.com/chvancooten/OSEP-Code-Snippets
