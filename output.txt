@@ -1,43 +1,50 @@
-Microsoft Windows [Version 10.0.19045.3803]
+Microsoft Windows [Version 10.0.19045.4046]
 (c) Microsoft Corporation. All rights reserved.
 
-C:\Users\iPMAC\source\repos\test\test\bin\Debug>cmd /k ipconfig
+C:\Users\Nemo\source\repos\gitc22\gitc22\bin\x64\Debug\netcoreapp3.1>cmd /k ipconfig
 
 Windows IP Configuration
 
 
-Ethernet adapter VirtualBox Host-Only Network:
+Ethernet adapter Ethernet:
+
+   Media State . . . . . . . . . . . : Media disconnected
+   Connection-specific DNS Suffix  . : 
+
+Unknown adapter Local Area Connection:
 
    Connection-specific DNS Suffix  . : 
-   Link-local IPv6 Address . . . . . : fe80::1081:ba64:e79c:6966%10
-   IPv4 Address. . . . . . . . . . . : 192.168.0.156
-   Subnet Mask . . . . . . . . . . . : 255.255.255.0
+   Link-local IPv6 Address . . . . . : fe80::f701:760a:e92c:1cc%3
+   IPv4 Address. . . . . . . . . . . : 100.64.100.6
+   Subnet Mask . . . . . . . . . . . : 255.255.255.255
    Default Gateway . . . . . . . . . : 
 
 Ethernet adapter VMware Network Adapter VMnet1:
 
    Connection-specific DNS Suffix  . : 
-   Link-local IPv6 Address . . . . . : fe80::763f:a630:8898:f7d1%12
-   IPv4 Address. . . . . . . . . . . : 192.168.111.1
+   IPv4 Address. . . . . . . . . . . : 192.168.177.1
    Subnet Mask . . . . . . . . . . . : 255.255.255.0
    Default Gateway . . . . . . . . . : 
 
 Ethernet adapter VMware Network Adapter VMnet8:
 
    Connection-specific DNS Suffix  . : 
-   Link-local IPv6 Address . . . . . : fe80::1cf3:5b61:2ee4:c9c1%5
-   IPv4 Address. . . . . . . . . . . : 10.1.1.1
+   IPv4 Address. . . . . . . . . . . : 192.168.220.1
    Subnet Mask . . . . . . . . . . . : 255.255.255.0
    Default Gateway . . . . . . . . . : 
 
-Ethernet adapter Ethernet 2:
+Ethernet adapter Bluetooth Network Connection 6:
+
+   Media State . . . . . . . . . . . : Media disconnected
+   Connection-specific DNS Suffix  . : 
+
+Ethernet adapter Ethernet 11:
 
    Connection-specific DNS Suffix  . : 
-   Link-local IPv6 Address . . . . . : fe80::ab1:bcff:96a4:fb19%11
-   IPv4 Address. . . . . . . . . . . : 192.168.88.166
+   IPv4 Address. . . . . . . . . . . : 192.168.8.100
    Subnet Mask . . . . . . . . . . . : 255.255.255.0
-   Default Gateway . . . . . . . . . : 192.168.88.1
+   Default Gateway . . . . . . . . . : 192.168.8.1
 
-C:\Users\iPMAC\source\repos\test\test\bin\Debug>
-C:\Users\iPMAC\source\repos\test\test\bin\Debug>
-C:\Users\iPMAC\source\repos\test\test\bin\Debug>
+C:\Users\Nemo\source\repos\gitc22\gitc22\bin\x64\Debug\netcoreapp3.1>
+C:\Users\Nemo\source\repos\gitc22\gitc22\bin\x64\Debug\netcoreapp3.1>
+C:\Users\Nemo\source\repos\gitc22\gitc22\bin\x64\Debug\netcoreapp3.1>
