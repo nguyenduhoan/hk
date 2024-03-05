@@ -1,49 +1,142 @@
 Microsoft Windows [Version 10.0.19045.4046]
 (c) Microsoft Corporation. All rights reserved.
 
-C:\Users\Nemo\source\repos\gitc22\gitc22\bin\x64\Debug\netcoreapp3.1>cmd /k ipconfig
+C:\Users\Nemo\source\repos\gitc22\gitc22\bin\x64\Debug\netcoreapp3.1>cmd /k netstat -ano
 
-Windows IP Configuration
+Active Connections
 
-
-Ethernet adapter Ethernet:
-
-   Media State . . . . . . . . . . . : Media disconnected
-   Connection-specific DNS Suffix  . : 
-
-Unknown adapter Local Area Connection:
-
-   Connection-specific DNS Suffix  . : 
-   Link-local IPv6 Address . . . . . : fe80::f701:760a:e92c:1cc%3
-   IPv4 Address. . . . . . . . . . . : 100.64.100.6
-   Subnet Mask . . . . . . . . . . . : 255.255.255.255
-   Default Gateway . . . . . . . . . : 
-
-Ethernet adapter VMware Network Adapter VMnet1:
-
-   Connection-specific DNS Suffix  . : 
-   IPv4 Address. . . . . . . . . . . : 192.168.177.1
-   Subnet Mask . . . . . . . . . . . : 255.255.255.0
-   Default Gateway . . . . . . . . . : 
-
-Ethernet adapter VMware Network Adapter VMnet8:
-
-   Connection-specific DNS Suffix  . : 
-   IPv4 Address. . . . . . . . . . . : 192.168.220.1
-   Subnet Mask . . . . . . . . . . . : 255.255.255.0
-   Default Gateway . . . . . . . . . : 
-
-Ethernet adapter Bluetooth Network Connection 6:
-
-   Media State . . . . . . . . . . . : Media disconnected
-   Connection-specific DNS Suffix  . : 
-
-Ethernet adapter Ethernet 11:
-
-   Connection-specific DNS Suffix  . : 
-   IPv4 Address. . . . . . . . . . . : 192.168.8.100
-   Subnet Mask . . . . . . . . . . . : 255.255.255.0
-   Default Gateway . . . . . . . . . : 192.168.8.1
+  Proto  Local Address          Foreign Address        State           PID
+  TCP    0.0.0.0:135            0.0.0.0:0              LISTENING       1108
+  TCP    0.0.0.0:443            0.0.0.0:0              LISTENING       7144
+  TCP    0.0.0.0:445            0.0.0.0:0              LISTENING       4
+  TCP    0.0.0.0:902            0.0.0.0:0              LISTENING       4716
+  TCP    0.0.0.0:912            0.0.0.0:0              LISTENING       4716
+  TCP    0.0.0.0:3389           0.0.0.0:0              LISTENING       1316
+  TCP    0.0.0.0:5040           0.0.0.0:0              LISTENING       4944
+  TCP    0.0.0.0:5985           0.0.0.0:0              LISTENING       4
+  TCP    0.0.0.0:7680           0.0.0.0:0              LISTENING       8364
+  TCP    0.0.0.0:8081           0.0.0.0:0              LISTENING       4
+  TCP    0.0.0.0:47001          0.0.0.0:0              LISTENING       4
+  TCP    0.0.0.0:49664          0.0.0.0:0              LISTENING       944
+  TCP    0.0.0.0:49665          0.0.0.0:0              LISTENING       776
+  TCP    0.0.0.0:49666          0.0.0.0:0              LISTENING       1596
+  TCP    0.0.0.0:49667          0.0.0.0:0              LISTENING       1212
+  TCP    0.0.0.0:49668          0.0.0.0:0              LISTENING       3712
+  TCP    0.0.0.0:49669          0.0.0.0:0              LISTENING       3844
+  TCP    0.0.0.0:49671          0.0.0.0:0              LISTENING       888
+  TCP    100.64.100.6:139       0.0.0.0:0              LISTENING       4
+  TCP    100.64.100.6:50375     74.125.23.188:5228     ESTABLISHED     1568
+  TCP    100.64.100.6:54680     54.192.18.62:443       CLOSE_WAIT      17984
+  TCP    100.64.100.6:54681     54.192.18.62:443       CLOSE_WAIT      17984
+  TCP    100.64.100.6:59227     15.197.213.252:443     ESTABLISHED     7808
+  TCP    100.64.100.6:62217     140.82.114.26:443      ESTABLISHED     1568
+  TCP    100.64.100.6:62288     185.199.111.154:443    ESTABLISHED     1568
+  TCP    100.64.100.6:62289     185.199.111.133:443    ESTABLISHED     1568
+  TCP    100.64.100.6:62340     140.82.112.22:443      ESTABLISHED     1568
+  TCP    100.64.100.6:62344     162.19.56.86:443       ESTABLISHED     1568
+  TCP    100.64.100.6:62345     180.222.102.158:443    ESTABLISHED     1568
+  TCP    100.64.100.6:62346     162.19.56.86:443       ESTABLISHED     1568
+  TCP    100.64.100.6:62347     103.9.190.11:443       ESTABLISHED     1568
+  TCP    100.64.100.6:62349     42.99.128.187:80       TIME_WAIT       0
+  TCP    100.64.100.6:62354     20.205.243.168:443     ESTABLISHED     16784
+  TCP    100.64.100.6:62356     20.50.73.9:443         ESTABLISHED     12220
+  TCP    100.64.100.6:62358     142.251.222.202:443    ESTABLISHED     1568
+  TCP    100.64.100.6:62359     13.107.21.200:443      ESTABLISHED     9212
+  TCP    100.64.100.6:62360     13.107.21.200:443      ESTABLISHED     9212
+  TCP    100.64.100.6:62361     13.107.21.200:443      ESTABLISHED     9212
+  TCP    100.64.100.6:62362     23.33.92.60:443        ESTABLISHED     9212
+  TCP    100.64.100.6:62365     23.33.92.22:443        CLOSE_WAIT      9212
+  TCP    100.64.100.6:62366     23.33.92.22:443        ESTABLISHED     9212
+  TCP    100.64.100.6:62367     23.33.92.22:443        CLOSE_WAIT      9212
+  TCP    100.64.100.6:62368     23.33.92.22:443        CLOSE_WAIT      9212
+  TCP    100.64.100.6:62369     23.33.92.22:443        CLOSE_WAIT      9212
+  TCP    100.64.100.6:62370     23.33.92.22:443        CLOSE_WAIT      9212
+  TCP    100.64.100.6:62371     204.79.197.222:443     ESTABLISHED     9212
+  TCP    100.64.100.6:62372     152.195.38.76:80       ESTABLISHED     9212
+  TCP    100.64.100.6:62374     3.209.45.230:443       TIME_WAIT       0
+  TCP    100.64.100.6:62376     142.250.66.68:443      ESTABLISHED     1568
+  TCP    100.64.100.6:62377     20.205.243.166:443     ESTABLISHED     1568
+  TCP    100.64.100.6:62378     20.205.243.168:443     ESTABLISHED     1568
+  TCP    100.64.100.6:63175     20.198.162.78:443      ESTABLISHED     4520
+  TCP    100.64.100.6:63179     91.108.56.106:443      ESTABLISHED     12036
+  TCP    127.0.0.1:1434         0.0.0.0:0              LISTENING       6276
+  TCP    127.0.0.1:2020         0.0.0.0:0              LISTENING       7808
+  TCP    127.0.0.1:2020         127.0.0.1:52889        ESTABLISHED     7808
+  TCP    127.0.0.1:2020         127.0.0.1:52894        ESTABLISHED     7808
+  TCP    127.0.0.1:2021         0.0.0.0:0              LISTENING       4840
+  TCP    127.0.0.1:2021         127.0.0.1:49672        ESTABLISHED     4840
+  TCP    127.0.0.1:2022         0.0.0.0:0              LISTENING       4848
+  TCP    127.0.0.1:2022         127.0.0.1:49673        ESTABLISHED     4848
+  TCP    127.0.0.1:8307         0.0.0.0:0              LISTENING       7144
+  TCP    127.0.0.1:49672        127.0.0.1:2021         ESTABLISHED     7808
+  TCP    127.0.0.1:49673        127.0.0.1:2022         ESTABLISHED     7808
+  TCP    127.0.0.1:49674        127.0.0.1:49675        ESTABLISHED     7808
+  TCP    127.0.0.1:49675        127.0.0.1:49674        ESTABLISHED     7808
+  TCP    127.0.0.1:52889        127.0.0.1:2020         ESTABLISHED     16812
+  TCP    127.0.0.1:52894        127.0.0.1:2020         ESTABLISHED     6344
+  TCP    192.168.8.100:139      0.0.0.0:0              LISTENING       4
+  TCP    192.168.177.1:139      0.0.0.0:0              LISTENING       4
+  TCP    192.168.220.1:139      0.0.0.0:0              LISTENING       4
+  TCP    [::]:135               [::]:0                 LISTENING       1108
+  TCP    [::]:443               [::]:0                 LISTENING       7144
+  TCP    [::]:445               [::]:0                 LISTENING       4
+  TCP    [::]:3389              [::]:0                 LISTENING       1316
+  TCP    [::]:5985              [::]:0                 LISTENING       4
+  TCP    [::]:7680              [::]:0                 LISTENING       8364
+  TCP    [::]:8081              [::]:0                 LISTENING       4
+  TCP    [::]:47001             [::]:0                 LISTENING       4
+  TCP    [::]:49664             [::]:0                 LISTENING       944
+  TCP    [::]:49665             [::]:0                 LISTENING       776
+  TCP    [::]:49666             [::]:0                 LISTENING       1596
+  TCP    [::]:49667             [::]:0                 LISTENING       1212
+  TCP    [::]:49668             [::]:0                 LISTENING       3712
+  TCP    [::]:49669             [::]:0                 LISTENING       3844
+  TCP    [::]:49671             [::]:0                 LISTENING       888
+  TCP    [::1]:1434             [::]:0                 LISTENING       6276
+  TCP    [::1]:8307             [::]:0                 LISTENING       7144
+  TCP    [::1]:49670            [::]:0                 LISTENING       4880
+  UDP    0.0.0.0:500            *:*                                    4440
+  UDP    0.0.0.0:3389           *:*                                    1316
+  UDP    0.0.0.0:4500           *:*                                    4440
+  UDP    0.0.0.0:5050           *:*                                    4944
+  UDP    0.0.0.0:5353           *:*                                    14152
+  UDP    0.0.0.0:5353           *:*                                    14152
+  UDP    0.0.0.0:5353           *:*                                    14152
+  UDP    0.0.0.0:5353           *:*                                    14152
+  UDP    0.0.0.0:5353           *:*                                    3296
+  UDP    0.0.0.0:5353           *:*                                    14152
+  UDP    0.0.0.0:5355           *:*                                    3296
+  UDP    0.0.0.0:53437          *:*                                    7808
+  UDP    0.0.0.0:59815          *:*                                    15452
+  UDP    100.64.100.6:137       *:*                                    4
+  UDP    100.64.100.6:138       *:*                                    4
+  UDP    100.64.100.6:1900      *:*                                    4164
+  UDP    100.64.100.6:59977     *:*                                    4164
+  UDP    127.0.0.1:1900         *:*                                    4164
+  UDP    127.0.0.1:49664        *:*                                    3360
+  UDP    127.0.0.1:59981        *:*                                    4164
+  UDP    192.168.8.100:137      *:*                                    4
+  UDP    192.168.8.100:138      *:*                                    4
+  UDP    192.168.8.100:1900     *:*                                    4164
+  UDP    192.168.8.100:59980    *:*                                    4164
+  UDP    192.168.177.1:137      *:*                                    4
+  UDP    192.168.177.1:138      *:*                                    4
+  UDP    192.168.177.1:1900     *:*                                    4164
+  UDP    192.168.177.1:59978    *:*                                    4164
+  UDP    192.168.220.1:137      *:*                                    4
+  UDP    192.168.220.1:138      *:*                                    4
+  UDP    192.168.220.1:1900     *:*                                    4164
+  UDP    192.168.220.1:59979    *:*                                    4164
+  UDP    [::]:500               *:*                                    4440
+  UDP    [::]:3389              *:*                                    1316
+  UDP    [::]:4500              *:*                                    4440
+  UDP    [::]:5353              *:*                                    3296
+  UDP    [::]:5353              *:*                                    14152
+  UDP    [::]:5355              *:*                                    3296
+  UDP    [::1]:1900             *:*                                    4164
+  UDP    [::1]:59976            *:*                                    4164
+  UDP    [fe80::f701:760a:e92c:1cc%3]:1900  *:*                                    4164
+  UDP    [fe80::f701:760a:e92c:1cc%3]:59975  *:*                                    4164
 
 C:\Users\Nemo\source\repos\gitc22\gitc22\bin\x64\Debug\netcoreapp3.1>
 C:\Users\Nemo\source\repos\gitc22\gitc22\bin\x64\Debug\netcoreapp3.1>
