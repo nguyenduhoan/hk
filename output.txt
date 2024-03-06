@@ -1,49 +1,8 @@
 Microsoft Windows [Version 10.0.19045.4046]
 (c) Microsoft Corporation. All rights reserved.
 
-C:\Users\Nemo\source\repos\gitc22\gitc22\bin\x64\Debug\netcoreapp3.1>cmd /k ipconfig
-
-Windows IP Configuration
-
-
-Ethernet adapter Ethernet:
-
-   Media State . . . . . . . . . . . : Media disconnected
-   Connection-specific DNS Suffix  . : 
-
-Unknown adapter Local Area Connection:
-
-   Connection-specific DNS Suffix  . : 
-   Link-local IPv6 Address . . . . . : fe80::f701:760a:e92c:1cc%3
-   IPv4 Address. . . . . . . . . . . : 100.64.100.6
-   Subnet Mask . . . . . . . . . . . : 255.255.255.255
-   Default Gateway . . . . . . . . . : 
-
-Ethernet adapter VMware Network Adapter VMnet1:
-
-   Connection-specific DNS Suffix  . : 
-   IPv4 Address. . . . . . . . . . . : 192.168.177.1
-   Subnet Mask . . . . . . . . . . . : 255.255.255.0
-   Default Gateway . . . . . . . . . : 
-
-Ethernet adapter VMware Network Adapter VMnet8:
-
-   Connection-specific DNS Suffix  . : 
-   IPv4 Address. . . . . . . . . . . : 192.168.220.1
-   Subnet Mask . . . . . . . . . . . : 255.255.255.0
-   Default Gateway . . . . . . . . . : 
-
-Ethernet adapter Ethernet 11:
-
-   Connection-specific DNS Suffix  . : 
-   IPv4 Address. . . . . . . . . . . : 192.168.8.100
-   Subnet Mask . . . . . . . . . . . : 255.255.255.0
-   Default Gateway . . . . . . . . . : 192.168.8.1
-
-Ethernet adapter Bluetooth Network Connection 6:
-
-   Media State . . . . . . . . . . . : Media disconnected
-   Connection-specific DNS Suffix  . : 
+C:\Users\Nemo\source\repos\gitc22\gitc22\bin\x64\Debug\netcoreapp3.1>cmd /k whoami
+desktop-aespo7k\nemo
 
 C:\Users\Nemo\source\repos\gitc22\gitc22\bin\x64\Debug\netcoreapp3.1>
 C:\Users\Nemo\source\repos\gitc22\gitc22\bin\x64\Debug\netcoreapp3.1>
