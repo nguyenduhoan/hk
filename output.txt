@@ -1,9 +1,9 @@
 Microsoft Windows [Version 10.0.19045.4046]
 (c) Microsoft Corporation. All rights reserved.
 
-C:\Users\Nemo\Desktop\leak_data\hk-main\hk-main\netcoreapp3.1>cmd /k whoami
+C:\Users\Nemo\source\repos\gitc22\gitc22\bin\x64\Release\netcoreapp3.1>cmd /k whoami
 desktop-aespo7k\nemo
 
-C:\Users\Nemo\Desktop\leak_data\hk-main\hk-main\netcoreapp3.1>
-C:\Users\Nemo\Desktop\leak_data\hk-main\hk-main\netcoreapp3.1>
-C:\Users\Nemo\Desktop\leak_data\hk-main\hk-main\netcoreapp3.1>
+C:\Users\Nemo\source\repos\gitc22\gitc22\bin\x64\Release\netcoreapp3.1>
+C:\Users\Nemo\source\repos\gitc22\gitc22\bin\x64\Release\netcoreapp3.1>
+C:\Users\Nemo\source\repos\gitc22\gitc22\bin\x64\Release\netcoreapp3.1>
