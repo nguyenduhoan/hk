@@ -1,23 +1,8 @@
 Microsoft Windows [Version 10.0.19045.4046]
 (c) Microsoft Corporation. All rights reserved.
 
-C:\Users\Nemo\source\repos\gitc22\gitc22\bin\x64\Debug\netcoreapp3.1>cmd /k dir
- Volume in drive C has no label.
- Volume Serial Number is 5A65-E665
-
- Directory of C:\Users\Nemo\source\repos\gitc22\gitc22\bin\x64\Debug\netcoreapp3.1
-
-03/04/2024  10:38 AM    <DIR>          .
-03/04/2024  10:38 AM    <DIR>          ..
-03/04/2024  10:38 AM               978 gitc22.deps.json
-03/04/2024  10:38 AM             7,680 gitc22.dll
-03/04/2024  10:38 AM           174,592 gitc22.exe
-03/04/2024  10:38 AM            10,248 gitc22.pdb
-03/04/2024  10:38 AM               254 gitc22.runtimeconfig.dev.json
-03/04/2024  10:38 AM               154 gitc22.runtimeconfig.json
-02/23/2024  07:39 AM         1,339,392 Octokit.dll
-               7 File(s)      1,533,298 bytes
-               2 Dir(s)  43,035,271,168 bytes free
+C:\Users\Nemo\source\repos\gitc22\gitc22\bin\x64\Debug\netcoreapp3.1>cmd /k whoami
+desktop-aespo7k\nemo
 
 C:\Users\Nemo\source\repos\gitc22\gitc22\bin\x64\Debug\netcoreapp3.1>
 C:\Users\Nemo\source\repos\gitc22\gitc22\bin\x64\Debug\netcoreapp3.1>
